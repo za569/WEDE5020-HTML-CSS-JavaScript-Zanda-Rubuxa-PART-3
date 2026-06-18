@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreamworlds holdings|enquiry</title>
+    <img src="images/logo.jpg" width="100px" length="500px" alt="logo">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Dreamworld holdings</a>
+            <ul class="nav-links" id="navlinks">
+                <li><a href=index.html class=active>Home</a></li>
+                <li><a href=about.html>about</a></li>
+                <li><a href=services.html>services</a></li>
+                <li><a href=contact.html>contact</a></li>
+                <li><a href=enquiry.html class="btn-nav">enquire now</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Send an enquiry</h1>
+        <Form id="enquiryForm" novalidate>
+            <label for="name">Name*</label>
+            <input type="text" id="name" required>
+            <small class="error"></small><br><br>
+
+            <label for="email">Email*</label>
+            <input type="email" id="email" required>
+            <small class="error"></small><br><br><br>
+
+            <label for="service">Service interested in*</label>
+            <select id="service" required>
+                
+                <option value="">Select one</option>
+                <option value="web-design">Web Design</option>
+                <option value="js-features">JavaScript features</option>
+                <option value="maintenance">Maintenance</option>
+            
+            </select>
+            <small class="error"></small><br><br><br>
+
+            <label for="message">Message</label><br><br><br>
+            
+            <textarea id="message" rows="5"></textarea><br><br><br>
+
+            <button type="submit" class="btn">Submit enquiry</button><br><br><br>
+
+            </Form>
+
+            <div id="thankYouMsg" hidden>
+                <p>Thank You</p>
+            </div>
+            
+            <br><br><br>
+
+            <section class="Features">
+                <h2>Find Us</h2>
+                <div class="grid-3">
+                    <div class="card">
+                        <iframe src="https://maps.google.com/maps?q=Port%20Elizabeth%20South%20Africa&z=13&output=embed" width="100%" height="450" style="border : 0;" loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </section>
+
+
+            
+
+
+        
+        <footer>
+            <p>&copy; 2026 Dreamworlds holdings.</p>
+        </footer>
+        
+        <script src="js/script.js"></script>
+    
+    </main>
+
+    
+</body>
+</html>

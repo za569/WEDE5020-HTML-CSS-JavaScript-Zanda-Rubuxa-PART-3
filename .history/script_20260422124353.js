@@ -1,2 +1,0 @@
-// Mobile menu toggle
-const
